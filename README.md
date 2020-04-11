@@ -13,8 +13,8 @@ Dockerfile has been written to copy source file to WORKDIR of container and comp
 
 User needs to download both files to local and build Dockerfile to create the image and after that run the container -->
 
-docker build -t java-application .
-docker run java-application
+1. docker build -t java-application .
+2. docker run java-application
 
 Following output will be displayed.
 
